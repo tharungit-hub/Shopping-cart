@@ -29,7 +29,6 @@ cart.html
    	   	<h3 class="Heading">Shopping Cart</h3>
    	   	<h5 class="Action">Remove all</h5>
    	   </div>
-
    	   <div class="Cart-Items">
    	   	  <div class="image-box">
    	   	  	<img src="apple.png" style="height: 150px;" />
@@ -50,7 +49,6 @@ cart.html
    	   	  	<div class="remove"><u>Remove</u></div>
    	   	  </div>
    	   </div>
-
    	   <div class="Cart-Items pad">
    	   	  <div class="image-box">
    	   	  	<img src="grapes.png" style="height: 150px;" />
@@ -96,7 +94,6 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-
 .CartContainer{
 	width: 70%;
 	height: 90%;
@@ -104,7 +101,6 @@ body{
     border-radius: 20px;
     box-shadow: 0px 10px 20px #1687d933;
 }
-
 .Header{
 	margin: auto;
 	width: 90%;
@@ -113,14 +109,12 @@ body{
 	justify-content: space-between;
 	align-items: center;
 }
-
 .Heading{
 	font-size: 20px;
 	font-family: 'Open Sans';
 	font-weight: 700;
 	color: #2F3841;
 }
-
 .Action{
 	font-size: 14px;
 	font-family: 'Open Sans';
@@ -129,7 +123,6 @@ body{
 	cursor: pointer;
 	border-bottom: 1px solid #E44C4C;
 }
-
 .Cart-Items{
 	margin: auto;
 	width: 90%;
@@ -161,7 +154,6 @@ body{
 	font-weight: 600;
 	color: #909090;
 }
-
 .counter{
 	width: 15%;
 	display: flex;
@@ -188,7 +180,6 @@ body{
 	font-weight: 600;
 	color: #202020;
 }
-
 .prices{
 	height: 100%;
 	text-align: right;
@@ -216,11 +207,9 @@ body{
 	color: #E44C4C;
 	cursor: pointer;
 }
-
 .pad{
 	margin-top: 5px;
 }
-
 hr{
 	width: 66%;
 	float: right;
